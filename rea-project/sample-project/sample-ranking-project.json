@@ -1,0 +1,197 @@
+{
+  "id": "proj_rankreels_sample_01",
+  "name": "Top 3 Extreme Phenomena Shorts",
+  "version": "1.0.0",
+  "updatedAt": "2026-10-26T09:30:00.000Z",
+  "resolution": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16",
+    "fps": 30
+  },
+  "mediaLibrary": [
+    {
+      "id": "asset_main_mp4",
+      "name": "rankreels_imported_9s.mp4",
+      "type": "video",
+      "url": "/sample-project/assets/rankreels_imported_9s.mp4",
+      "localPath": "sample-project/assets/rankreels_imported_9s.mp4",
+      "duration": 9.0,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "asset_img_cyberpunk",
+      "name": "scene_cyberpunk_car.jpg",
+      "type": "image",
+      "url": "/sample-project/assets/scene_cyberpunk_car.jpg",
+      "localPath": "sample-project/assets/scene_cyberpunk_car.jpg",
+      "duration": 3.0,
+      "width": 768,
+      "height": 1376
+    },
+    {
+      "id": "asset_img_alpine",
+      "name": "scene_alpine_peak.jpg",
+      "type": "image",
+      "url": "/sample-project/assets/scene_alpine_peak.jpg",
+      "localPath": "sample-project/assets/scene_alpine_peak.jpg",
+      "duration": 3.0,
+      "width": 768,
+      "height": 1376
+    },
+    {
+      "id": "asset_img_ocean",
+      "name": "scene_deep_ocean.jpg",
+      "type": "image",
+      "url": "/sample-project/assets/scene_deep_ocean.jpg",
+      "localPath": "sample-project/assets/scene_deep_ocean.jpg",
+      "duration": 3.0,
+      "width": 768,
+      "height": 1376
+    },
+    {
+      "id": "asset_bg_music",
+      "name": "background_synth_loop.mp3",
+      "type": "audio",
+      "url": "/sample-project/assets/background_synth_loop.mp3",
+      "localPath": "sample-project/assets/background_synth_loop.mp3",
+      "duration": 12.0
+    },
+    {
+      "id": "asset_srt_sample",
+      "name": "sample_captions.srt",
+      "type": "subtitle",
+      "url": "/sample-project/assets/sample_captions.srt",
+      "localPath": "sample-project/assets/sample_captions.srt",
+      "duration": 9.0
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "order": 0,
+      "label": "Scene 1 \u2014 Neon Drift (#3)",
+      "mediaAssetId": "asset_main_mp4",
+      "mediaType": "video",
+      "trimStart": 0.0,
+      "trimEnd": 3.0,
+      "duration": 3.0,
+      "overlay": {
+        "showBadge": true,
+        "rankNumber": 3,
+        "rankPrefix": "#",
+        "badgeColor": "#f59e0b",
+        "badgeTextColor": "#09090b",
+        "badgePosition": "top-left",
+        "titleText": "TOKYO NEON DRIFT",
+        "subtitleText": "Midnight rain street circuit",
+        "overlayYPercent": 14,
+        "bannerBgColor": "#09090b",
+        "bannerBgOpacity": 0.78
+      },
+      "caption": {
+        "enabled": true,
+        "text": "Wait until you see #1 on this list!",
+        "placement": "bottom",
+        "fontFamily": "Inter",
+        "fontSize": 52,
+        "textColor": "#ffffff",
+        "bgColor": "#09090b",
+        "bgOpacity": 0.75,
+        "uppercase": false
+      },
+      "audio": {
+        "sourceClipVolume": 0.9,
+        "muteSourceClip": false,
+        "narrationAssetId": null,
+        "narrationVolume": 1.0
+      }
+    },
+    {
+      "id": "scene_2",
+      "order": 1,
+      "label": "Scene 2 \u2014 Alpine Summit (#2)",
+      "mediaAssetId": "asset_main_mp4",
+      "mediaType": "video",
+      "trimStart": 3.0,
+      "trimEnd": 6.0,
+      "duration": 3.0,
+      "overlay": {
+        "showBadge": true,
+        "rankNumber": 2,
+        "rankPrefix": "#",
+        "badgeColor": "#38bdf8",
+        "badgeTextColor": "#09090b",
+        "badgePosition": "top-left",
+        "titleText": "GOLDEN HOUR RIDGE",
+        "subtitleText": "4,478m vertical ice knife-edge",
+        "overlayYPercent": 14,
+        "bannerBgColor": "#09090b",
+        "bannerBgOpacity": 0.78
+      },
+      "caption": {
+        "enabled": true,
+        "text": "At #2: The impossible Golden Hour Ridge climb.",
+        "placement": "bottom",
+        "fontFamily": "Inter",
+        "fontSize": 52,
+        "textColor": "#fde047",
+        "bgColor": "#09090b",
+        "bgOpacity": 0.75,
+        "uppercase": false
+      },
+      "audio": {
+        "sourceClipVolume": 0.9,
+        "muteSourceClip": false,
+        "narrationAssetId": null,
+        "narrationVolume": 1.0
+      }
+    },
+    {
+      "id": "scene_3",
+      "order": 2,
+      "label": "Scene 3 \u2014 Deep Trench (#1)",
+      "mediaAssetId": "asset_main_mp4",
+      "mediaType": "video",
+      "trimStart": 6.0,
+      "trimEnd": 9.0,
+      "duration": 3.0,
+      "overlay": {
+        "showBadge": true,
+        "rankNumber": 1,
+        "rankPrefix": "#",
+        "badgeColor": "#10b981",
+        "badgeTextColor": "#09090b",
+        "badgePosition": "top-left",
+        "titleText": "BIOLUMINESCENT ABYSS",
+        "subtitleText": "Glowing deep-reef medusa colony",
+        "overlayYPercent": 14,
+        "bannerBgColor": "#09090b",
+        "bannerBgOpacity": 0.78
+      },
+      "caption": {
+        "enabled": true,
+        "text": "And taking the #1 spot: Bioluminescent Abyss!",
+        "placement": "bottom",
+        "fontFamily": "Inter",
+        "fontSize": 54,
+        "textColor": "#34d399",
+        "bgColor": "#09090b",
+        "bgOpacity": 0.8,
+        "uppercase": true
+      },
+      "audio": {
+        "sourceClipVolume": 0.9,
+        "muteSourceClip": false,
+        "narrationAssetId": null,
+        "narrationVolume": 1.0
+      }
+    }
+  ],
+  "globalAudio": {
+    "bgMusicAssetId": "asset_bg_music",
+    "bgMusicVolume": 0.35,
+    "masterNarrationVolume": 1.0
+  }
+}

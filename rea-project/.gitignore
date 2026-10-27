@@ -1,0 +1,11 @@
+node_modules/
+.vercel/
+.env
+.env.local
+exports/*.mp4
+exports/*.webm
+uploads/*
+!uploads/.gitkeep
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,169 @@
+{
+  "id": "workflow_validation_project",
+  "name": "Validated YouTube Ranking Short",
+  "version": "1.0.0",
+  "updatedAt": "2026-10-27T04:17:46.518Z",
+  "resolution": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16",
+    "fps": 30
+  },
+  "mediaLibrary": [
+    {
+      "id": "asset_imported_mp4",
+      "name": "rankreels_imported_9s.mp4",
+      "type": "video",
+      "url": "/sample-project/assets/rankreels_imported_9s.mp4",
+      "localPath": "sample-project/assets/rankreels_imported_9s.mp4",
+      "duration": 9,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "asset_replacement_img",
+      "name": "scene_deep_ocean.jpg",
+      "type": "image",
+      "url": "/sample-project/assets/scene_deep_ocean.jpg",
+      "localPath": "sample-project/assets/scene_deep_ocean.jpg",
+      "duration": 3,
+      "width": 768,
+      "height": 1376
+    },
+    {
+      "id": "asset_bg_music",
+      "name": "background_synth_loop.mp3",
+      "type": "audio",
+      "url": "/sample-project/assets/background_synth_loop.mp3",
+      "localPath": "sample-project/assets/background_synth_loop.mp3",
+      "duration": 12
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_split_2",
+      "order": 0,
+      "label": "Split Scene 2",
+      "mediaAssetId": "asset_imported_mp4",
+      "mediaType": "video",
+      "trimStart": 3,
+      "trimEnd": 6,
+      "duration": 3,
+      "overlay": {
+        "showBadge": true,
+        "rankNumber": 3,
+        "rankPrefix": "#",
+        "badgeColor": "#f59e0b",
+        "badgeTextColor": "#09090b",
+        "badgePosition": "top-left",
+        "titleText": "UPDATED RANK #3 OVERLAY",
+        "subtitleText": "Cut 3s - 6s",
+        "overlayYPercent": 14,
+        "bannerBgColor": "#09090b",
+        "bannerBgOpacity": 0.78
+      },
+      "caption": {
+        "enabled": true,
+        "text": "Custom edited caption on reordered first scene!",
+        "placement": "bottom",
+        "fontFamily": "Inter",
+        "fontSize": 48,
+        "textColor": "#ffffff",
+        "bgColor": "#09090b",
+        "bgOpacity": 0.75,
+        "uppercase": false
+      },
+      "audio": {
+        "sourceClipVolume": 0.9,
+        "muteSourceClip": false,
+        "narrationAssetId": null,
+        "narrationVolume": 1
+      }
+    },
+    {
+      "id": "scene_split_1",
+      "order": 1,
+      "label": "Split Scene 1",
+      "mediaAssetId": "asset_imported_mp4",
+      "mediaType": "video",
+      "trimStart": 0.5,
+      "trimEnd": 2.5,
+      "duration": 2,
+      "overlay": {
+        "showBadge": true,
+        "rankNumber": 3,
+        "rankPrefix": "#",
+        "badgeColor": "#f59e0b",
+        "badgeTextColor": "#09090b",
+        "badgePosition": "top-left",
+        "titleText": "Initial Rank #3",
+        "subtitleText": "Cut 0s - 3s",
+        "overlayYPercent": 14,
+        "bannerBgColor": "#09090b",
+        "bannerBgOpacity": 0.78
+      },
+      "caption": {
+        "enabled": true,
+        "text": "Caption for scene 1",
+        "placement": "bottom",
+        "fontFamily": "Inter",
+        "fontSize": 48,
+        "textColor": "#ffffff",
+        "bgColor": "#09090b",
+        "bgOpacity": 0.75,
+        "uppercase": false
+      },
+      "audio": {
+        "sourceClipVolume": 0.9,
+        "muteSourceClip": false,
+        "narrationAssetId": null,
+        "narrationVolume": 1
+      }
+    },
+    {
+      "id": "scene_split_3",
+      "order": 2,
+      "label": "Split Scene 3",
+      "mediaAssetId": "asset_replacement_img",
+      "mediaType": "image",
+      "trimStart": 0,
+      "trimEnd": 3,
+      "duration": 3,
+      "overlay": {
+        "showBadge": true,
+        "rankNumber": 1,
+        "rankPrefix": "#",
+        "badgeColor": "#f59e0b",
+        "badgeTextColor": "#09090b",
+        "badgePosition": "top-left",
+        "titleText": "REPLACED SCENE #1 ABYSS",
+        "subtitleText": "Cut 6s - 9s",
+        "overlayYPercent": 14,
+        "bannerBgColor": "#09090b",
+        "bannerBgOpacity": 0.78
+      },
+      "caption": {
+        "enabled": true,
+        "text": "Caption for scene 3",
+        "placement": "bottom",
+        "fontFamily": "Inter",
+        "fontSize": 48,
+        "textColor": "#ffffff",
+        "bgColor": "#09090b",
+        "bgOpacity": 0.75,
+        "uppercase": false
+      },
+      "audio": {
+        "sourceClipVolume": 0.9,
+        "muteSourceClip": false,
+        "narrationAssetId": null,
+        "narrationVolume": 1
+      }
+    }
+  ],
+  "globalAudio": {
+    "bgMusicAssetId": "asset_bg_music",
+    "bgMusicVolume": 0.4,
+    "masterNarrationVolume": 1
+  }
+}
